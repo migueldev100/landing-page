@@ -86,3 +86,84 @@ button {
   border-radius: 5px;
   border: none;
 }
+
+.illustration {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+}
+
+.sec-content {
+  text-align: center;
+}
+
+.sec-content h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.sec-content p {
+  font-size: 16px;
+  color: rgb(19, 30, 46);
+}
+
+.carrousel {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding: 16px 150px;
+}
+
+.carrousel > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 250px;
+}
+
+.quote p:first-child {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote p:last-child {
+  font-weight: bold;
+  text-align: right;
+}
+
+
+.call-to-action button {
+  border: 2px solid white;
+}
+
+.call-to-action p {
+  color: #E5E7EB;
+}
+
+h3 {
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.call-to-action {
+  margin: 100px 150px;
+  padding: 25px 100px;
+  background-color: #3882F6;
+  display: flex;
+  align-items: baseline;
+  border-radius: 5px;
+}
+
+.call-to-action div {
+  flex: 1;
+}
+
